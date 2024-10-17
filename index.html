@@ -1,196 +1,309 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Sobat Penilai</title>
-
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
-
-    <!-- Feather Icon -->
-    <script src="https://unpkg.com/feather-icons"></script>
-
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-
-    <!-- style -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-
   <body>
-    <!-- Navbar start -->
-    <nav class="navbar navbar-expand-lg navbar-dark border-bottom border-danger-subtle">
-      <div class="container">
-        <a class="navbar-brand" href="#">Sobat Penilai</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#services">Services</a>
-            </li>
-            <li class="nav-item"></li>
-              <a class="nav-link" href="#article">Article</a>
-            </li>
-          </ul>
+    <!-- START Beranda -->
+    <section id="home" class="section">
+      <div class="jumbotron jumbotron-fullscreen">
+        <div class="container">
+          <h1 class="text-center">Introducing Sobat Penilai</h1>
+          <div class="row">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6">
+              <p class="text-center">
+                Aplikasi ini adalah platform database yang dirancang khusus untuk memfasilitasi para penilai properti di seluruh Indonesia dalam berbagi dan mengakses data penilaian properti secara efisien. Aplikasi ini membantu
+                meningkatkan transparansi, akurasi, dan kecepatan dalam proses penilaian properti.
+              </p>
+            </div>
+            <div class="col-lg-3"></div>
+          </div>
+          <p class="text-center">
+            <a href="#" class="btn btn btn-default btn-lg rounded-button">Gabung Sekarang</a>
+          </p>
         </div>
       </div>
-    </nav>
-    <!-- Navbar end -->
-
-    <!-- Hero start -->
-    <section class="hero" id="home">
-      <main class="content text-center container">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <h1>Introducing Sobat <span>Penilai</span></h1>
-            <p class="mx-auto">Aplikasi ini adalah platform database yang dirancang khusus untuk memfasilitasi para penilai properti di seluruh Indonesia dalam berbagi dan mengakses data penilaian properti secara efisien. Aplikasi ini membantu meningkatkan transparansi, akurasi, dan kecepatan dalam proses penilaian properti.</p>
-            <a class="btn btn-light rounded-pill" href="#" role="button">Gabung Sekarang</a>
-          </div>
-        </div>
-      </main>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,160L80,170.7C160,181,320,203,480,202.7C640,203,800,181,960,170.7C1120,160,1280,160,1360,160L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
     </section>
-    <!-- Hero end -->
+    <!-- END -->
 
-    <!-- About start -->
-     <section class="about" id="about">
+    <!-- START Tentang Kami -->
+    <section id="about" class="section">
       <div class="container">
-        <div class="row text-center">
-          <div class="col p-4">
-            <h2>About</h2>
-            <p>Tagline kami yaitu <span class="fw-bold">Tag-Gather-Share</span> merefleksikan visi dan misi kami untuk membantu penilai properti di seluruh Indonesia. Yuk kita jelajahi apa yang dimaksud dengan setiap elemen tagline ini !</p>
-          </div>
+        <div class="text-center">
+          <h1>Penilaian Jadi Lebih Mudah Dengan <strong style="color: #de2229">Sobatpenilai</strong></h1>
+          <br />
+          <p>Optimalkan proses penilaian Anda dengan aplikasi <strong style="color: #de2229">Sobatpenilai</strong> yang menghadirkan</p>
+          <p>kemudahan dan efisiensi dalam setiap langkah.</p>
         </div>
-        <div class="row justify-content-center text-center">
-          <div class="col">
-            <h4>TAG</h4>
-            <p>Kami mengajak Anda untuk menandai dan mengkategorikan penilaian properti dengan mudah menggunakan aplikasi Sobat Penilai. Dengan penandaan yang tepat, data penilaian akan menjadi lebih terstruktur dan mudah ditemukan</p>
+        <div class="row">
+          <!-- Card 1 -->
+          <div class="col-sm-4">
+            <div class="panel panel-default card">
+              <div class="panel-heading panel-heading-about text-center bg-danger">
+                <span class="glyphicon glyphicon-upload" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-download" aria-hidden="true"></span><br />
+                <h3 class="panel-title"><strong>Upload & Simpan Data</strong></h3>
+              </div>
+              <div class="panel-body panel-body-about text-center">
+                <br />
+                <p>Kelola dan unggah data penilaian Anda dengan mudah. Sobatpenilai memastikan data Anda aman dan terorganisir dengan baik, siap digunakan kapan saja.</p>
+              </div>
+            </div>
           </div>
-          <div class="col">
-            <h4>Gather</h4>
-            <p>Bergabunglah dengan komunitas penilai properti terbesar di Indonesia! Di Sobat Penilai, kami menciptakan platform yang memungkinkan penilai dari berbagai wilayah berkumpul, berbagi pengalaman, dan saling mendukung</p>
-          </div>
-          <div class="col">
-            <h4>Share</h4>
-            <p>Bagikan pengetahuan, wawasan, dan pengalaman Anda dalam penilaian properti. Dengan saling berbagi, kita dapat memperluas pengetahuan kolektif dan meningkatkan standar penilaian properti di Indonesia</p>
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#de2229" fill-opacity="1" d="M0,224L40,234.7C80,245,160,267,240,256C320,245,400,203,480,160C560,117,640,75,720,90.7C800,107,880,181,960,202.7C1040,224,1120,192,1200,192C1280,192,1360,224,1400,240L1440,256L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
-     </section>
-    <!-- About end -->
 
-    <!-- services start -->
-    <section id="services" class="services">
-      <div class="text-center">
-        <h2 class="centered-text">Pekerjaan Penilaian Jadi Lebih Mudah Dengan Aplikasi <span>Sobatpenilai</span></h2>
-        <div class="container text-center">
-          <div class="row row-cols-1 row-cols-md-2 g-4 mt-4">
-            <div class="col mb-4">
-              <div class="p-4 border border-white rounded shadow">
-                <div class="card-body p-4">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-upload"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
-                  <h4 class="fw-semibold"><br>Upload & save data with Sobatpenilai</h4>
-                  <p>Unggah dan simpan data penilaian properti secara aman di Sobatpenilai, memungkinkan pengguna mengakses dan mengelola data dengan mudah kapan saja.</p>
-                </div>
+          <!-- Card 2 -->
+          <div class="col-sm-4">
+            <div class="panel panel-default card">
+              <div class="panel-heading panel-heading-about text-center">
+                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-user" aria-hidden="true"></span><br />
+                <h3 class="panel-title"><strong>Bangun Koneksi & Jalin Kolaborasi</strong></h3>
+              </div>
+              <div class="panel-body panel-body-about text-center">
+                <br />
+                <p>Sobatpenilai membantu Anda memperluas koneksi dengan sesama penilai. Kolaborasi dan bertukar informasi jadi lebih cepat dan mudah.</p>
               </div>
             </div>
-            <div class="col mb-4">
-              <div class="p-4 border border-white rounded shadow">
-                <div class="card-body p-4">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
-                  <h4 class="fw-semibold"><br>Connect & network on chat features</h4>
-                  <p>Gunakan fitur chat untuk terhubung dan berjejaring dengan penilai properti lain, memfasilitasi diskusi dan berbagi informasi secara langsung di platform.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col mb-4">
-              <div class="p-4 border border-white rounded shadow">
-                <div class="card-body p-4">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-share-2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
-                  <h4 class="fw-semibold"><br>Publish and share your data easily</h4>
-                  <p>Publikasikan dan bagikan data penilaian properti dengan cepat kepada sesama penilai atau pihak terkait, mempermudah kolaborasi dan pertukaran informasi.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col mb-4">
-              <div class="p-4 border border-white rounded shadow">
-                <div class="card-body p-4">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-                  <h4 class="fw-semibold"><br>Find comparative data with search engine</h4>
-                  <p>Temukan data penilaian properti yang sebanding dengan fitur mesin pencari, membantu penilai membuat keputusan lebih tepat dan akurat.</p>
-                </div>
-              </div>
-            </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,160L80,144C160,128,320,96,480,106.7C640,117,800,171,960,170.7C1120,171,1280,117,1360,90.7L1440,64L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
-    </section>
-    <!-- services end -->
+          </div>
 
-    <!-- FAQ start -->
-    <section class="faq py-5" id="faq">
-      <div class="container">
-        <h2 class="text-center mb-5">Frequently Asked Questions</h2>
-        <div class="accordion" id="faqAccordion">
-          <div class="accordion-item">
-            <h3 class="accordion-header">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Apa itu Sobat Penilai?
-              </button>
-            </h3>
-            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
-              <div class="accordion-body">
-                Sobat Penilai adalah platform database yang dirancang khusus untuk memfasilitasi para penilai properti di seluruh Indonesia dalam berbagi dan mengakses data penilaian properti secara efisien.
+          <!-- Card 3 -->
+          <div class="col-sm-4">
+            <div class="panel panel-default card">
+              <div class="panel-heading panel-heading-about text-center">
+                <span class="glyphicon glyphicon-search" aria-hidden="true"></span><br />
+                <h3 class="panel-title"><strong>Temukan Data Pembanding</strong></h3>
               </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h3 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Bagaimana cara bergabung dengan Sobat Penilai?
-              </button>
-            </h3>
-            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-              <div class="accordion-body">
-                Untuk bergabung dengan Sobat Penilai, Anda dapat mengklik tombol "Gabung Sekarang" di halaman utama kami dan mengikuti proses pendaftaran yang mudah.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h3 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Apakah layanan Sobat Penilai berbayar?
-              </button>
-            </h3>
-            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-              <div class="accordion-body">
-                Kami menyediakan beberapa tingkat layanan, termasuk opsi gratis dengan fitur terbatas dan layanan premium dengan fitur lebih lengkap. Silakan lihat halaman harga kami untuk informasi lebih lanjut.
+              <div class="panel-body panel-body-about text-center">
+                <br />
+                <p>Cari dan temukan data pembanding dengan cepat untuk membantu analisis penilaian Anda. Sobatpenilai menyediakan akses ke berbagai sumber data yang relevan.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- FAQ end -->
+    <br /><br /><br />
+    <!-- END -->
 
-    <!-- Feather Icons -->
-    <script>
-      feather.replace();
-    </script>
+    <!-- START Benefit -->
+    <section id="benefit" class="section">
+      <div class="container">
+        <div class="row benefit-row">
+          <div class="col-sm-5 col-sm-offset-1">
+            <img src="img/rumah.jpg" alt="rumah" class="img-responsive benefit-image" />
+          </div>
+          <div class="col-sm-5 benefit-text">
+            <h1>
+              Data Pembanding Semakin <span style="color: #de2229"><strong>Mudah</strong></span> Dicari
+            </h1>
+            <p>Aplikasi untuk menyimpan data yang memudahkan para penilai mendapatkan data pembanding dengan cepat sehingga menghemat waktu.</p>
+          </div>
+        </div>
+        <div class="row benefit-row">
+          <div class="col-sm-5 col-sm-offset-1">
+            <img src="img/income.jpg" alt="income" class="img-responsive benefit-image" />
+          </div>
+          <div class="col-sm-5 benefit-text">
+            <h1>
+              Upload Datamu, Raih <span style="color: #de2229"><strong>Pasif Income</strong></span>
+            </h1>
+            <p>
+              Ubah data yang kamu miliki menjadi sumber penghasilan tambahan. Dengan Sobatpenilai, kamu bisa berbagi data dan memperluas jaringan dengan penilai lainnya. Bangun kesempatan baru bersama komunitas, dan temukan potensi pasif
+              income dari datamu. #TogetherShare
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END -->
 
-    <!-- Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- START Cara Kerja -->
+    <section class="cara-kerja">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>Cara Kerja Sobatpenilai</h2>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <!-- Card 1 -->
+          <div class="col-sm-6">
+            <div class="panel panel-default panel-default-ck">
+              <div class="panel-body text-center">
+                <br />
+                <h3>Mulai Survey & Unggah Foto (Gunakan Ponsel)</h3>
+                <p>Lakukan survei lapangan dan ambil foto data langsung dari lokasi menggunakan perangkat seluler. Klik tombol berikut ini untuk mengunggah foto dengan mudah melalui ponsel anda.</p>
+                <a href="https://www.google.com" class="btn btn btn-default btn-lg rounded-button">Mulai Survey</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-sm-6">
+            <div class="panel panel-default panel-default-ck">
+              <div class="panel-body text-center">
+                <br />
+                <h3>Isi Data Sekarang (Gunakan Komputer)</h3>
+                <p>Lengkapi pengisian data lapangan secara menyeluruh menggunakan komputer Anda. Klik tombol berikut ini untuk memasukkan data yang sudah terkumpul dalam format yang terstruktur melalui komputer anda.</p>
+                <a href="https://www.youtube.com" class="btn btn btn-default btn-lg rounded-button">Isi Data</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br /><br />
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <div class="text-center">
+              <h3>Panduan Menggunakan Sobatpenilai</h3>
+            </div>
+            <div class="video-container">
+              <!-- Ganti URL_VIDEO_YOUTUBE dengan URL video YouTube yang sesuai -->
+              <iframe src="https://www.youtube.com/embed/URL_VIDEO_YOUTUBE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br /><br />
+    <!-- END -->
+
+    <!-- START FAQ -->
+    <section id="faq" class="section">
+      <div class="container">
+        <h2>Pertanyaan yang Sering Ditanyakan</h2>
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          <div class="panel panel-default panel-default-faq">
+            <div class="panel-heading panel-heading-faq" role="tab" id="headingOne">
+              <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> Apa itu Sobat Penilai? </a>
+              </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+              <div class="panel-body">Sobat Penilai adalah platform database yang dirancang khusus untuk memfasilitasi para penilai properti di seluruh Indonesia dalam berbagi dan mengakses data penilaian properti secara efisien.</div>
+            </div>
+          </div>
+
+          <div class="panel panel-default panel-default-faq">
+            <div class="panel-heading panel-heading-faq" role="tab" id="headingTwo">
+              <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> Bagaimana cara mendaftar di Sobatpenilai? </a>
+              </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+              <div class="panel-body">Anda dapat mendaftar melalui halaman registrasi di website kami. Cukup klik tombol "Daftar" di pojok kanan atas, isi formulir dengan informasi yang diperlukan, dan ikuti petunjuk yang diberikan.</div>
+            </div>
+          </div>
+
+          <div class="panel panel-default panel-default-faq">
+            <div class="panel-heading panel-heading-faq" role="tab" id="headingThree">
+              <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> Bagaimana cara mengakses data pembanding di Sobatpenilai? </a>
+              </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+              <div class="panel-body">
+                Setelah login, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta tempore vero aliquid consequuntur distinctio porro deleniti ab maiores amet magni ratione voluptatum repudiandae, incidunt dignissimos..
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel-default panel-default-faq">
+            <div class="panel-heading panel-heading-faq" role="tab" id="headingFour">
+              <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour"> Apakah Sobatpenilai menyediakan panduan penggunaan? </a>
+              </h4>
+            </div>
+            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+              <div class="panel-body">
+                Ya, Sobatpenilai menyediakan berbagai sumber belajar termasuk video tutorial dan panduan pengguna. Anda juga dapat menghubungi tim dukungan kami untuk bantuan lebih lanjut atau pertanyaan spesifik tentang penggunaan
+                platform.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br /><br />
+    <!-- END -->
+
+    <!-- Artikel -->
+    <section id="articles" class="section">
+      <div class="container">
+        <h1>Artikel Kami</h1>
+
+        <!-- Carousel Section -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <a href="https://example.com/article1">
+                <img src="img/rumah.jpg" alt="Article 1" />
+                <div class="carousel-caption">
+                  <h3>Article 1</h3>
+                  <p>Description of Article 1</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="item">
+              <a href="https://example.com/article2">
+                <img src="img/income.jpg" alt="Article 2" />
+                <div class="carousel-caption">
+                  <h3>Article 2</h3>
+                  <p>Description of Article 2</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="item">
+              <a href="https://example.com/article3">
+                <img src="img/rumah.jpg" alt="Article 3" />
+                <div class="carousel-caption">
+                  <h3>Article 3</h3>
+                  <p>Description of Article 3</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <br /><br /><br /><br />
+    <!-- END -->
+
+    <!-- START sponsor -->
+    <div id="sponsor-banner" class="sponsor-banner">
+      <div class="container">
+        <p>Disponsori oleh: <strong>Lorem, ipsum.</strong></p>
+      </div>
+    </div>
+    <!-- END -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
 </html>

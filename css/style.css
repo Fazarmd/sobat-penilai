@@ -1,43 +1,151 @@
-:root {
-  --primary-color: #de2229;
-}
-
-body {
-  font-size: 1.2rem;
-  font-family: "poppins", sans-serif;
-  min-height: 2000px;
-}
-
-.navbar {
-  background-color: var(--primary-color);
-}
-
-.hero {
-  padding-top: 2rem;
-  background-color: var(--primary-color);
-  color: white;
-}
-
-.services {
-  background-color: var(--primary-color);
-  color: white;
-}
-
-#services .card-body {
-  flex-grow: 1;
+.jumbotron-fullscreen {
+  height: 100vh;
+  margin-bottom: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+  background-color: #de2229;
+  background-image: url("../img/map-01.png"); /* Ganti dengan path gambar */
+  background-size: contain; /* Membuat gambar memenuhi seluruh area */
+  background-position: center center; /* Memposisikan gambar di tengah */
+  background-repeat: no-repeat; /* Tidak mengulangi gambar */
+  color: white;
 }
-
-#services .p-4 {
+.jumbotron-fullscreen .container {
+  width: 100%;
+}
+.jumbotron-fullscreen h1 {
+  margin-top: 20;
+}
+.rounded-button {
+  border-radius: 25px; /* Sesuaikan dengan nilai yang diinginkan untuk efek rounded */
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
   display: flex;
   flex-direction: column;
   height: 100%;
 }
-
-.accordion-button:not(.collapsed) {
-  background-color: var(--primary-color);
+.panel-body-about {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.panel-body-about p {
+  flex-grow: 1;
+}
+.panel-heading-about {
+  background-color: #de2229 !important;
+  color: white !important;
+}
+.benefit-row {
+  margin-bottom: 30px;
+}
+.benefit-image {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+.benefit-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.cara-kerja {
+  background-color: #de2229;
   color: white;
+  padding: 60px 0;
+}
+.panel-default-ck {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #de2229;
+  color: white;
+}
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  height: 0;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.panel-heading-faq {
+  background-color: #de2229 !important;
+  color: white !important;
+}
+.panel-group .panel {
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: none;
+  margin-bottom: 15px;
+}
+.panel-default-faq > .panel-heading-faq {
+  padding: 0;
+  border-radius: 8px;
+  color: #212121;
+  background-color: #fafafa;
+  border-bottom: 1px solid #eeeeee;
+}
+.panel-title {
+  font-size: 16px;
+}
+.panel-title > a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.panel-title > a:hover {
+  background-color: #e84e4ecb;
+  border-radius: 8px;
+}
+.panel-default-faq > .panel-heading-faq + .panel-collapse > .panel-body {
+  border-top: none;
+  padding: 20px;
+}
+.panel-group .panel-heading-faq + .panel-collapse > .panel-body {
+  border-top: none;
+}
+.carousel-inner .item {
+  height: 400px; /* Atur tinggi sesuai kebutuhan */
+}
+.carousel-inner .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.content {
+  flex: 1 0 auto;
+}
+
+.sponsor-banner {
+  height: 50px;
+  background-color: #f8f8f8;
+  border-top: 1px solid #e7e7e7;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.sponsor-banner .container {
+  line-height: 50px; /* Pusat vertikal teks */
+}
+
+.sponsor-banner p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
 }
